@@ -5,14 +5,7 @@ import { TodoCreateForm } from "../forms/todoForm";
 
 export class PopupModal extends React.Component {
   render() {
-    const {
-      visible,
-      onCancel,
-      onCreate,
-      addType,
-      confirmLoading,
-      wrappedComponentRef
-    } = this.props;
+    const {visible,onCancel,onCreate,addType,confirmLoading,wrappedComponentRef} = this.props;
 
     return (
       <Modal

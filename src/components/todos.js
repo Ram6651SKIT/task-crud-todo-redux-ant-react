@@ -7,12 +7,9 @@ import { PopupModal } from "./utils/windowModal";
 import "./../styles.css";
 
 const EditableContext = React.createContext();
-
 const { TabPane } = Tabs;
-
 function callback(key) {
 }
-
 const userModal = "User";
 const todoModal = "Todo";
 
