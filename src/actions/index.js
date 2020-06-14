@@ -22,7 +22,7 @@ export const fetchUsersTodos = () => {
       console.log("usersdata from localstorage", JSON.stringify(users_data));
       console.log("todosdata from localstorage", JSON.stringify(todos_data));
     } catch (error) {
-      localStorage.clear();
+    
     }
 
     dispatch({
@@ -35,18 +35,6 @@ export const fetchUsersTodos = () => {
         {
         "name":"Rammohan",
          "email":"rammohan6651@gmail.com"
-      },
-      {
-        "name":"HR ASZ",
-         "email":"HR@asztechnologies.com"
-      },
-      {
-        "name":"Althaf Hussain",
-         "email":"althaf.hussain@asztechnologies.com"
-      },
-      {
-        "name":"Zakeer Hussain",
-         "email":"zakeer@asztechnologies.com"
       }
     ]
     });
